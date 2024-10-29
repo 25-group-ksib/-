@@ -1,0 +1,168 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    display: flex;
+    gap: 104px;
+}
+ul li:first-child a{
+ color:  #FA4A0C;
+ font-family: "Montserrat", sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.2px;
+text-align: center;
+}
+
+
+.header{
+    background-color: #f7f7f7;
+    padding: 33px 0 32px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    
+}       
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.menu{
+    display: flex;
+}
+
+
+ 
+ .main_top-block{
+    color: #f7f7f7;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    height: 620px;
+
+   background-image:url(../img/food.svg) ;
+    
+ }
+
+ .main_top-block p{
+    width: 939px;
+    color: #f7f7f7;
+    font-family: "Poppins", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+ }
+ .main_top-block h3{
+    margin-top: 73px;
+    
+ }
+
+ .text2{
+ color: #f7f7f7;
+font-family: "Montserrat", sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.2px;
+text-align: center;
+width: 551px;
+height: 38px;
+left: 89px;
+top: 10px;
+ }
+
+ .btn1{   
+    background: rgb(250, 74, 12);  
+    font-weight: 700;
+    font-size: 24px;
+    color: #f7f7f7;
+    width: 236px;
+    height: 68px;
+    border-radius: 30px; 
+    text-align: left;
+    padding: 16px 0px 16px 0px;
+    text-align: center;
+   
+   
+} 
+
+ .btn2{
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #f7f7f7;
+    position: static;
+    width: 236px;
+    height: 68px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px 0px 16px 0px;
+   
+    
+
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+   
+
+   
+}
+    
+.mybtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+.kirieshkiphone{
+    margin-top: -150px;
+    margin-left: -120px;
+}
+
+h1{
+  
+padding-left: 385px;
+margin-top: 395px;
+
+}
